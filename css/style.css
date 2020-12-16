@@ -443,6 +443,8 @@ footer {
   line-height: 1.36;
   text-align: center;
   text-transform: uppercase;
+
+  /*============backdrop============*/
 }
 .backdrop {
   position: fixed;
@@ -481,6 +483,21 @@ footer {
   width: 30px;
   height: 30px;
 }
+
+.speaker-form {
+  display: block;
+}
+.speaker-form > p {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-align: center;
+
+  margin: 0px;
+  padding: 40px;
+}
+
 /*=================work list===============*/
 .title-work {
   margin: 0px;
