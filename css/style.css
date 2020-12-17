@@ -342,6 +342,60 @@ footer {
 .footer-social-list > li:not(:last-child) {
   margin-right: 10px;
 }
+
+.footer-form-field {
+  display: inline-block;
+  position: relative;
+
+  min-width: 630px;
+  padding-left: 93px;
+}
+
+.footer-form-field p {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0px;
+  padding: 0 0 20px;
+}
+.subscribe-button {
+  min-width: 200px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.footer-form-input {
+  min-width: 358px;
+  height: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  background: #2f303a;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  /*filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));*/
+  border-radius: 4px;
+}
+
+.footer-form-lable {
+  position: absolute;
+  top: 35%;
+  left: 109px;
+  color: rgba(255, 255, 255, 0.6);
+}
 /*===========Partner================*/
 
 .partner {
@@ -480,8 +534,12 @@ footer {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+
   width: 30px;
   height: 30px;
+  background-color: #ffffff;
+  fill: #000000;
 }
 
 .form {
