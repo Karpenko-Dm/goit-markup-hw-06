@@ -1,12 +1,5 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<symbol id="icon-close" viewBox="0 0 32 32">
-<path d="M26.667 7.303l-1.97-1.97-7.808 7.808-7.808-7.808-1.97 1.97 7.808 7.808-7.808 7.808 1.97 1.97 7.808-7.808 7.808 7.808 1.97-1.97-7.808-7.808 7.808-7.808z"></path>
-</symbol>
-</defs>
-</svg>
-<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<defs>
 <symbol id="icon-icon-check-1" viewBox="0 0 32 32">
 <path fill="#2196f3" style="fill: var(--color1, #2196f3)" d="M8 0.667h16c1.473 0 2.667 1.194 2.667 2.667v14.667c0 1.473-1.194 2.667-2.667 2.667h-16c-1.473 0-2.667-1.194-2.667-2.667v-14.667c0-1.473 1.194-2.667 2.667-2.667z"></path>
 <path fill="#fff" style="fill: var(--color2, #fff)" d="M13.995 14.416l-3.477-3.317-1.184 1.121 4.661 4.447 10.005-9.545-1.176-1.121-8.829 8.416z"></path>

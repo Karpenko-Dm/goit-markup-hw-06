@@ -319,25 +319,38 @@
     <p speaker-form-title>Оставьте свои данные, мы вам перезвоним</p>
   <form class="form">
     <div class="form-field">
-<input type="text" class="form-input" name="name" id="name" />
-    <label for="name" class="form-label">Имя </label>
+
+    <label for="name" class="form-label">Имя 
+      <input type="text" class="form-input" name="name" id="name" />
+    <svg class="label-icon" width="18px" height="18px">
+      <use href="./img/defs2.svg#icon-person" ></use></svg>
+    </label>
   </div>
 <br>
 <div class="form-field">
-<input type="tel" class="form-input" name="tel" id="tel" />
-  <label for="tel" class="form-label">Телефон </label>
+  <label for="tel" class="form-label">Телефон
+    <input type="tel" class="form-input" name="tel" id="tel" />
+  <svg class="label-icon" width="18px" height="18px">
+    <use href="./img/defs2.svg#icon-phone"></use>
+  </svg>
+  </label>
   </div>
 <br>
 <div class="form-field">
-<input type="email" class="form-input" name="mail" id="mail" />
-  <label for="mail" class="form-label">Почта </label>
+
+  <label for="mail" class="form-label">Почта
+    <input type="email" class="form-input" name="mail" id="mail" />
+  <svg class="label-icon" width="18px" height="18px">
+    <use href="./img/defs2.svg#icon-email"></use>
+  </svg>
+  </label>
 </div>
 <br>
-  <label for="comment">Коментарий </label>
-  <textarea name="comment" id="comment"  rows="9"></textarea>
+  <label for="comment">Коментарий 
+    <textarea class="modal-form-message" name="comment" id="comment" placeholder="Введите текст"></textarea></label>
+ 
 <br>
-  <input type="checkbox" name="" id="" />
-  <label for=""> Соглашаюсь с рассылкой и принимаю условия договора</lable>
+  <label  for=""> <input type="checkbox" name="user_policy" value="accept-policy" id="" />Соглашаюсь с рассылкой и принимаю  <a href="#">Условия договора</a> </lable>
 
 <button type="submit">Отправить</button>
 </form>
