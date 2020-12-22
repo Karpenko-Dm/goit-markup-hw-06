@@ -29,7 +29,7 @@
         <svg class="link-icon" width="16" height="12">
           <use href="./img/symbol-defs.svg#icon-envelope-hover"></use> 
         </svg> info@devstudio.com</a></li>
-      <li><a class="contact-item" href="tel:+380961111111"><svg class="link-icon "width="10" height="16" >
+      <li><a class="contact-item" href="tel:+380961111111"><svg class="link-icon " width="10" height="16" >
         <use href="./img/symbol-defs.svg#icon-smartphone"></use>
       </svg> +38 096 111 11 11</a></li>
      </ul>
@@ -42,7 +42,7 @@
     <section class="hero">
       <div class="hero-container">
         <h1 class="title-hero">Эффективные решения <br> для вашего бизнеса</h1>
-        <div class="btn" ><button class="button" href="" data-modal-open>Заказать услугу</button></div>
+        <div class="btn" ><button class="button" href="#" data-modal-open>Заказать услугу</button></div>
         </div>
     </section>
 
@@ -301,9 +301,12 @@
     <section class="footer-form-field">
       <p>подпишитесь на рассылку</p>
 <form>
-  <lable for="mail" class="footer-form-lable">E-mail </lable>
-  <input type="email" class="footer-form-input" name="mail" id="mail" />
-      <button type="submit" class="subscribe-button"> Подписаться</button>
+  <label for="mail" class="footer-form-lable"> </label>
+  <input type="email" class="footer-form-input" name="mail" id="mail" placeholder="E-mail" />
+      <button type="submit" class="subscribe-button"><div class="send-button-container"> Подписаться
+        <svg class="send-icon" width="24px" height="24px">
+        <use href="./img/defs2.svg#icon-send"></use>
+      </svg></div></button>
     </form>
   </section>
 
@@ -316,48 +319,52 @@
       <use href="./img/symbol-defs1.svg#icon-close"></use>
     </svg></button>
 <div class="form-speaker">
-    <p speaker-form-title>Оставьте свои данные, мы вам перезвоним</p>
+    <p class="speaker-form-title">Оставьте свои данные, мы вам перезвоним</p>
   <form class="form">
     <div class="form-field">
 
-    <label for="name" class="form-label">Имя 
+    <label for="name" class="form-label">
+      <span class="form-label-text">Имя</span>
       <input type="text" class="form-input" name="name" id="name" />
     <svg class="label-icon" width="18px" height="18px">
       <use href="./img/defs2.svg#icon-person" ></use></svg>
     </label>
   </div>
-<br>
+
 <div class="form-field">
-  <label for="tel" class="form-label">Телефон
+  <label for="tel" class="form-label">
+    <span class="form-label-text">Телефон</span>
     <input type="tel" class="form-input" name="tel" id="tel" />
   <svg class="label-icon" width="18px" height="18px">
     <use href="./img/defs2.svg#icon-phone"></use>
   </svg>
   </label>
   </div>
-<br>
+
 <div class="form-field">
 
-  <label for="mail" class="form-label">Почта
-    <input type="email" class="form-input" name="mail" id="mail" />
+  <label for="mail-input" class="form-label">
+    <span class="form-label-text">Почта</span>
+    <input type="email" class="form-input" name="mail" id="mail-input" />
   <svg class="label-icon" width="18px" height="18px">
     <use href="./img/defs2.svg#icon-email"></use>
   </svg>
   </label>
 </div>
-<br>
-  <label for="comment">Коментарий 
+
+  <label for="comment"> 
+    <span class="form-label-text">Коментарий</span>
     <textarea class="modal-form-message" name="comment" id="comment" placeholder="Введите текст"></textarea></label>
  
-<br>
-  <label  for=""> <input type="checkbox" name="user_policy" value="accept-policy" id="" />Соглашаюсь с рассылкой и принимаю  <a href="#">Условия договора</a> </lable>
+   <input type="checkbox" name="user-policy" value="accept-policy" id="user-policy" class="form-policy visually-hidden" />
+  <label for="user-policy" class="form-policy-text"><span class="user-policy-text">Соглашаюсь с рассылкой и принимаю  <a href="#">Условия договора</a></span> </label>
+<button class="input-button" type="submit">Отправить</button>
 
-<button type="submit">Отправить</button>
 </form>
 </div>
 </div>
   </div>
-</div>
+  
 <script src="./js/modal.js"></script>
 </body>
 </html>
