@@ -270,6 +270,7 @@ footer {
 
 .footer-inf {
   display: block;
+  min-width: 231px;
 }
 
 .address {
@@ -344,12 +345,14 @@ footer {
 }
 
 .footer-form-field {
-  display: inline-block;
   position: relative;
-
-  min-width: 630px;
+  min-width: 570px;
   margin-left: 93px;
-  margin-right: 215px;
+  justify-content: space-around;
+}
+.footer-form-field form {
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-form-field p {
